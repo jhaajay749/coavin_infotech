@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="p-5 m-5 text-light text-center bg-dark" id="home">
+    <div className="p-5 m-2 text-light text-center bg-dark" id="home">
       <h1>About</h1>
       <h2>Looking for USA or UK Remote Job</h2>
       <p>

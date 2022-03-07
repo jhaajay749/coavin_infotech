@@ -8,9 +8,9 @@ function About() {
       <p>
         We have Team of Developers accros the India. we and my team take
         projects and clients from UK and USA. We hire developers on contract
-        basis for USA and UK companies. Salary:- 1 Lakh to 3 Lakh per months in
-        hand depends upon your skill sets. Job type : - Remote( Work from Home )
-        Time Zone:- USA and UK time zone
+        basis for USA and UK companies. Salary 1 Lakh to 3 Lakh per months in
+        hand depends upon your skill sets. Job type  Remote( Work from Home )
+        Time Zone  USA and UK time zone.
       </p>
     </div>
   );

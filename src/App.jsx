@@ -1,12 +1,10 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import SectionOne from "./components/SectionOne";
-import SectionTwo from "./components/SectionTwo";
-import SectionThree from "./components/SectionThree";
-import SectionFour from "./components/SectionFour";
-import SectionFive from "./components/SectionFive";
+import About from "./components/About";
+import Service from "./components/Service";
+import Career from "./components/Career";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,17 +12,13 @@ function App() {
     <>
       <Navbar />
 
-      <Home />
+      <About />
 
-      <SectionOne />
+      <Service />
 
-      <SectionTwo />
+      <Career />
 
-      <SectionThree />
-
-      <SectionFour />
-
-      <SectionFive />
+      <Contact />
 
       <Footer />
     </>

@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-scroll";
+import logo from "../image/logoOne.png";
 
 function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
         <div className="container">
-          <h1 className="navbar-brand">SmoothScroll</h1>
+          <img src={logo} width="60px" alt="logo" className="me-3" />
+          <h1 className="navbar-brand">coavin infotech</h1>
 
           <button
             className="navbar-toggler"
@@ -28,62 +30,42 @@ function Navbar() {
                 <Link
                   to="home"
                   smooth={true}
-                  duration={1000}
+                  duration={100}
                   className="nav-link active"
                   aria-current="page"
                 >
-                  Home
+                  About
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   to="section1"
                   smooth={true}
-                  duration={1000}
+                  duration={100}
                   className="nav-link active"
                   aria-current="page"
                 >
-                  Section 1
+                  Service
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   to="section2"
                   smooth={true}
-                  duration={1000}
+                  duration={100}
                   className="nav-link"
                 >
-                  Section 2
+                  Career
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   to="section3"
                   smooth={true}
-                  duration={1000}
+                  duration={100}
                   className="nav-link"
                 >
-                  Section 3
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  to="section4"
-                  smooth={true}
-                  duration={1000}
-                  className="nav-link"
-                >
-                  Section 4
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  to="section5"
-                  smooth={true}
-                  duration={1000}
-                  className="nav-link"
-                >
-                  Section 5
+                  Contact
                 </Link>
               </li>
             </ul>

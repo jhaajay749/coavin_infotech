@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div
-      className="m-5 p-5"
+      className="m-1 p-5"
       id="section3"
       style={{ backgroundColor: "#003366" }}
     >

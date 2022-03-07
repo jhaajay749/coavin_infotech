@@ -4,7 +4,7 @@ import Sdata from "./Sdata";
 
 function Service() {
   return (
-    <>
+    <div id="section1">
       <h1 className="text-center mt-5 mb-4 fw-bold">Our Services</h1>
       <div
         className="row container mx-auto g-4 mt-5"
@@ -21,7 +21,7 @@ function Service() {
           );
         })}
       </div>
-    </>
+    <div/>
   );
 }
 

@@ -6,7 +6,7 @@ function Career() {
       <h1 className="display-5 text-center">Career</h1>
       <p className="text-center">
         Send us your Resume or CV on our Business Email
-        <span className="ms-2">coavininfotech@gmail.com</span>
+        <span className="ms-2 fw-bold">coavininfotech@gmail.com</span>
       </p>
     </div>
   );
